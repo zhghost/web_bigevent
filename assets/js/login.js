@@ -82,7 +82,7 @@ $(function() {
                 localStorage.setItem("token", res.token);
                 console.log(res.token);
                 // 跳转到后台主页（登陆很快，很可能上面的token看不到就已经跳转了，要么注释掉下面，要么slow 3G）
-                location.href = "../../index.html";
+                location.href = "./index.html";
                 // location.href = "./index.html";
             }
         })
